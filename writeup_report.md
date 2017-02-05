@@ -48,11 +48,11 @@ The model includes RELU layers to introduce nonlinearity followed by MaxPooling 
 
 Convolutional layers are followed by fully connected layers leading to an output control value which is the steering angle (model.py lines 41-52).
 
-The model contains dropout layers after each conv layer in order to reduce overfitting.
+Dropout layers was added after each conv layer in order to reduce overfitting.
 
-The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 61-67). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
+Training and validation was made on different data sets to ensure that the model was not overfitting (code line 61-67). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
-The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 56).
+Adam optimizer was used, so the learning rate was not tuned manually (model.py line 56).
 
 
 Model architecture visualization:
@@ -86,8 +86,8 @@ The validation set helped determine if the model was over or under fitting. Afte
 
 ###Testing
 
-Track 1:
+Result on track 1:
 ![alt text][image5]
 
-Track 2:
+Result on track 2:
 ![alt text][image6]
