@@ -86,8 +86,10 @@ The validation set helped determine if the model was over or under fitting. Afte
 
 ###Testing
 
-Result on track 1:
+The model gives good results on track 1 (simulator: 640x480, Fastest):
+
 ![alt text][image5]
 
-Result on track 2:
+And also on track 2 (simulator: 640x480, Fastest):
+
 ![alt text][image6]
